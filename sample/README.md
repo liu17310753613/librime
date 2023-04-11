@@ -57,6 +57,7 @@ Build the console app and try it with a random number in pinyin:
 cmake --build build --target sample_console
 
 cd build/sample/bin
+cp ../../../data/minimal/* ./
 echo "yibaiershisanwansiqianlingwushiliu" | ./sample_console
 ```
 
